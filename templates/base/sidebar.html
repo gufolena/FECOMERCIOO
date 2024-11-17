@@ -5,7 +5,7 @@
     <a href="#" class="brand-link">
       <img src="{% static 'img/logo.png' %}" alt="Logo" class="brand-image elevation-3"
            style="opacity: .8">
-          <span class="brand-text font-weight-light">Admin Panel</span>
+          <span class="brand-text font-weight-light">Painel do Admin</span>
     </a>
 
     <!-- Sidebar -->
@@ -13,10 +13,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="{% static 'img/user.jpg' %}" class="img-circle elevation-2" alt="User Image">
+          <img src="{% static 'img/user.png' %}" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">El Bakkouri Mohammed Amine</a>
+          <a href="#" class="d-block">Equipe Senac</a>
         </div>
       </div>
 
@@ -37,7 +37,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-folder"></i>
               <p>
-                Event Category
+                Categoria Evento
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -45,13 +45,13 @@
               <li class="nav-item">
                 <a href="{% url 'create-event-category' %}" class="nav-link">
                   <i class="far fa fa-edit nav-icon"></i>
-                  <p>Create Category</p>
+                  <p>Criar Categoria</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'event-category-list' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Category List</p>
+                  <p>Lista das Categorias</p>
                 </a>
               </li>
             </ul>
@@ -60,7 +60,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-calendar"></i>
               <p>
-                Events
+                Eventos
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -68,67 +68,72 @@
               <li class="nav-item">
                 <a href="{% url 'event-create' %}" class="nav-link">
                   <i class="far fa fa-edit nav-icon"></i>
-                  <p>Create Event</p>
+                  <p>Criar Evento</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'event-list' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Event List</p>
+                  <p>Lista dos Eventos</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'add-event-member' %}" class="nav-link">
                   <i class="far fa fa-edit nav-icon"></i>
-                  <p>Add Event Member</p>
+                  <p>Add Número do Evento</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'join-event-list' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Join Event List</p>
+                  <p>Juntar à lista de Eventos</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'event-wish-list' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Event Wish List</p>
+                  <p>Lista de Desejos de Eventos</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'add-event-wish-user' %}" class="nav-link">
                   <i class="far fa fa-edit nav-icon"></i>
-                  <p>Add Event Wish User</p>
+                  <p>Add Evento com Usuário</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'complete-event' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Complete Event List</p>
+                  <p>Lista Completa do Evento</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'absense-user' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Absense User</p>
+                  <p>Usuário Ausente</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'complete-event-user' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>Complete Event User</p>
+                  <p>Usuário Completo do Evento</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'create-user-mark' %}" class="nav-link">
                   <i class="far fa fa-edit nav-icon"></i>
-                  <p>Create User Mark</p>
+                  <p>Criar Marca de Usuário</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="{% url 'user-mark' %}" class="nav-link">
                   <i class="far fa fa-list nav-icon"></i>
-                  <p>User Mark List</p>
+                  <p>Lista de Marcas do Usuário</p>
+                
+              <li class="nav-item">
+                  <a href="{% url 'user-mark' %}" class="nav-link">
+                    <i class="far fa fa-list nav-icon"></i>
+                    <p>aaa</p>
                 </a>
               </li>
             </ul>
