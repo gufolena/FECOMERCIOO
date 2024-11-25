@@ -32,6 +32,7 @@ Navegador web (para acessar o sistema)
 ```
 cd FECOMERCIOO
 
+
 3. Crie um ambiente virtual:
 ```
    python -m venv env
