@@ -44,7 +44,7 @@ cd FECOMERCIOO
   Linux/macOS:
     ```
     source env/bin/activate
-   ```
+   
 5. Instale as dependências:
    ```
    pip install -r requirements.txt
@@ -63,7 +63,7 @@ cd FECOMERCIOO
    
 10. Acesse o sistema no navegador:
 
-Página principal: http://127.0.0.1:8000/
+Página principal: http://127.0.0.1:8000/<br>
 Área de administrador: http://127.0.0.1:8000/admin
 
 ## Pré-visualização
