@@ -2,11 +2,11 @@
 Este é um sistema de gestão de eventos desenvolvido para atender às necessidades da FeComércio, garantindo conformidade com a LGPD (Lei Geral de Proteção de Dados) e facilitando o gerenciamento de inscrições e pagamentos. O sistema fornece uma interface intuitiva para organização de eventos, dashboards informativos e pagamentos seguros.
 
 ## Funcionalidades
-•Cadastro e gerenciamento de eventos.
-•Inscrições online com integração ao sistema de pagamentos.
-•Painéis administrativos com visualização de participantes e status dos pagamentos.
-•Área de administrador para gestão de usuários e configurações gerais.
-•Conformidade com a LGPD para proteção de dados dos usuários.
+•Cadastro e gerenciamento de eventos.<br>
+•Inscrições online com integração ao sistema de pagamentos.<br>
+•Painéis administrativos com visualização de participantes e status dos pagamentos.<br>
+•Área de administrador para gestão de usuários e configurações gerais.<br>
+•Conformidade com a LGPD para proteção de dados dos usuários.<br>
 
 ## Tecnologias Utilizadas
 • Backend: Python, Django<br>
@@ -31,8 +31,7 @@ Navegador web (para acessar o sistema)
 2. Acesse o diretório do projeto:
 ```
 cd FECOMERCIOO
-
-
+```
 3. Crie um ambiente virtual:
 ```
    python -m venv env
