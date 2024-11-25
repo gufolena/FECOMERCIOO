@@ -27,40 +27,32 @@ Navegador web (para acessar o sistema)
 1. Clone o repositório:
    ```
    git clone https://github.com/gufolena/FECOMERCIOO
-
 2. Acesse o diretório do projeto:
 ```
 cd FECOMERCIOO
-
 3. Crie um ambiente virtual:
 ```
    python -m venv env
-
-4. Ative o ambiente virtual:
+4. Ative o ambiente virtual:<br>
    Windows:
    ```
    env\Scripts\activate
 
-  Linux/macOS:
+  Linux/macOS:<br>
     ```
     source env/bin/activate
-
 5. Instale as dependências:
    ```
    pip install -r requirements.txt
-
 6. Configure o banco de dados:
    ```
    python manage.py migrate
-
 7. Crie um superusuário:
    ```
    python manage.py createsuperuser
-
 9. Execute o servidor:
    ```
    python manage.py runserver
-
 10. Acesse o sistema no navegador:
 
 Página principal: http://127.0.0.1:8000/
