@@ -9,51 +9,61 @@ Painéis administrativos com visualização de participantes e status dos pagame
 Conformidade com a LGPD para proteção de dados dos usuários.
 
 ## Tecnologias Utilizadas
-Backend: Python, Django
-Banco de Dados: SQLite (padrão, pode ser configurado para outro SGBD)
-Frontend: HTML, CSS, JavaScript
-Gerenciamento de Pacotes: Pip
-Versionamento: Git
+Backend: Python, Django<br>
+Banco de Dados: SQLite (padrão, pode ser configurado para outro SGBD)<br>
+Frontend: HTML, CSS, JavaScript<br>
+Gerenciamento de Pacotes: Pip<br>
+Versionamento: Git<br>
 
 ## Pré-requisitos
 Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 
-Python 3.9 ou superior
-Git
-Navegador web (para acessar o sistema)
+Python 3.9 ou superior<br>
+Git<br>
+Navegador web (para acessar o sistema)<br>
 
 ## Como Rodar o Projeto
 
 Clone o repositório:
+```
 git clone https://github.com/gufolena/FECOMERCIOO
+```
 Acesse o diretório do projeto:
-
+```
 cd FECOMERCIOO
+```
 Crie um ambiente virtual:
-
+```
 python -m venv env
+```
 Ative o ambiente virtual:
-
 Linux/macOS:
+```
 source env/bin/activate
-
+```
 Windows:
+```
 env\Scripts\activate
-
+```
 Instale as dependências:
+```
 pip install -r requirements.txt
-
+```
 Configure o banco de dados:
+```
 python manage.py migrate
-
+```
 Crie um superusuário:
+```
 python manage.py createsuperuser
-
+```
 Execute o servidor:
+```
 python manage.py runserver
+```
 Acesse o sistema no navegador:
 
-Página principal: http://127.0.0.1:8000/
+Página principal: http://127.0.0.1:8000/<br>
 Área de administrador: http://127.0.0.1:8000/admin
 
 ## Pré-visualização
