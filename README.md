@@ -36,16 +36,17 @@ cd FECOMERCIOO
    ```
    python -m venv env
    ```
-4. Ative o ambiente virtual:
+    
+  Ative o ambiente virtual:
+   Linux/macOS:
+    ```
+    source env/bin/activate
+    
    Windows:
    ```
    env\Scripts\activate
-
-  Linux/macOS:
-    ```
-    source env/bin/activate
    
-5. Instale as dependências:
+. Instale as dependências:
    ```
    pip install -r requirements.txt
    
