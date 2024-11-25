@@ -9,7 +9,7 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-5">
-                            <h5>Event Category List</h5>
+                            <h5>Lista de categorias de eventos</h5>
                         </div>
                         <div class="col-md-7">
                             <div class="row">
@@ -24,9 +24,9 @@
                                       </div>
                                     </div>
                                   </form>
-                                <a class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</a> 
-                                <a class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</a>
-                                <a class="btn btn-success" href="{% url 'create-event-category' %}">Create New Category</a>
+                                <a class="btn" onclick="listView()"><i class="fa fa-bars"></i> Lista</a> 
+                                <a class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grade</a>
+                                <a class="btn btn-success" href="{% url 'create-event-category' %}">Criar nova categoria</a>
                             </div>
                         </div>
                     </div>
@@ -36,11 +36,11 @@
                         <thead>
                             <tr role="row">
                                 <th>#</th>
-                                <th>Name</th>
-                                <th>Code</th>
-                                <th class='ctg_image'>Image</th>
+                                <th>Nome</th>
+                                <th>Código</th>
+                                <th class='ctg_image'>Imagem</th>
                                 <th>Status</th>
-                                <th>Actions</th>
+                                <th>Ações</th>
                             </tr>
                         </thead>
                         <tbody>

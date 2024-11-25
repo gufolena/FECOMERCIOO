@@ -10,10 +10,10 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-10">
-                            <h5>Assign User Mark</h5>
+                            <h5>Atribuir marca de usuário</h5>
                         </div>
                         <div class="col-md-2">
-                            <a class="btn btn-success" href="{% url 'user-mark' %}">User Mark List</a>
+                            <a class="btn btn-success" href="{% url 'user-mark' %}">Lista de marcas de usuários</a>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                     <form method="post">
                         {% csrf_token %}
                         {{ form|crispy  }}
-                        <button class="btn btn-success ml-2" type="submit">Assign Mark</button>
+                        <button class="btn btn-success ml-2" type="submit">Atribuir marca</button>
                     </form>
                 </div>
             </div>

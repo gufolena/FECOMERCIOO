@@ -10,10 +10,10 @@
                 <div class="card-header">
                     <div class="row">
                         <div class="col-md-10">
-                            <h2>Update Event Status</h2>
+                            <h2>Atualizar status do evento</h2>
                         </div>
                         <div class="col-md-2">
-                            <a class="btn btn-success" href="{% url 'event-list' %}">Event List</a>
+                            <a class="btn btn-success" href="{% url 'event-list' %}">Lista de Eventos</a>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
                     <form method="post" enctype="multipart/form-data">
                         {% csrf_token %}
                         {{ form|crispy  }}
-                        <button class="btn btn-success ml-2" type="submit">Update</button>
+                        <button class="btn btn-success ml-2" type="submit">Atualizar</button>
                     </form>
                 </div>
             </div>
