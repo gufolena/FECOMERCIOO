@@ -2,24 +2,24 @@
 Este é um sistema de gestão de eventos desenvolvido para atender às necessidades da FeComércio, garantindo conformidade com a LGPD (Lei Geral de Proteção de Dados) e facilitando o gerenciamento de inscrições e pagamentos. O sistema fornece uma interface intuitiva para organização de eventos, dashboards informativos e pagamentos seguros.
 
 ## Funcionalidades
-Cadastro e gerenciamento de eventos.
-Inscrições online com integração ao sistema de pagamentos.
-Painéis administrativos com visualização de participantes e status dos pagamentos.
-Área de administrador para gestão de usuários e configurações gerais.
-Conformidade com a LGPD para proteção de dados dos usuários.
+•Cadastro e gerenciamento de eventos.
+•Inscrições online com integração ao sistema de pagamentos.
+•Painéis administrativos com visualização de participantes e status dos pagamentos.
+•Área de administrador para gestão de usuários e configurações gerais.
+•Conformidade com a LGPD para proteção de dados dos usuários.
 
 ## Tecnologias Utilizadas
-Backend: Python, Django<br>
-Banco de Dados: SQLite (padrão, pode ser configurado para outro SGBD)<br>
-Frontend: HTML, CSS, JavaScript<br>
-Gerenciamento de Pacotes: Pip<br>
-Versionamento: Git<br>
+• Backend: Python, Django<br>
+• Banco de Dados: SQLite (padrão, pode ser configurado para outro SGBD)<br>
+• Frontend: HTML, CSS, JavaScript<br>
+• Gerenciamento de Pacotes: Pip<br>
+• Versionamento: Git<br>
 
 ## Pré-requisitos
 Antes de começar, você precisará ter as seguintes ferramentas instaladas:
 
-Python 3.9 ou superior
-Git
+• Python 3.9 ou superior
+• Git
 Navegador web (para acessar o sistema)
 
 ## Como Rodar o Projeto
@@ -27,12 +27,15 @@ Navegador web (para acessar o sistema)
 1. Clone o repositório:
    ```
    git clone https://github.com/gufolena/FECOMERCIOO
+   
 2. Acesse o diretório do projeto:
 ```
 cd FECOMERCIOO
+
 3. Crie um ambiente virtual:
 ```
    python -m venv env
+   
 4. Ative o ambiente virtual:<br>
    Windows:
    ```
@@ -41,18 +44,23 @@ cd FECOMERCIOO
   Linux/macOS:<br>
     ```
     source env/bin/activate
+
 5. Instale as dependências:
    ```
    pip install -r requirements.txt
+   
 6. Configure o banco de dados:
    ```
    python manage.py migrate
+
 7. Crie um superusuário:
    ```
    python manage.py createsuperuser
+   
 9. Execute o servidor:
    ```
    python manage.py runserver
+   
 10. Acesse o sistema no navegador:
 
 Página principal: http://127.0.0.1:8000/
