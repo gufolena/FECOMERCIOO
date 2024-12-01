@@ -48,7 +48,7 @@ class Event(models.Model):
     venue = models.CharField(max_length=255)
     start_date = models.DateField()
     end_date = models.DateField()
-    location = LocationField()
+    location = LocationField(blank=True, null=True)  # Torna o campo opcional
     points = models.PositiveIntegerField()
     maximum_attende = models.PositiveIntegerField()
     created_user = models.ForeignKey('auth.User', on_delete=models.CASCADE, blank=True, null=True, related_name='event_created_user')
